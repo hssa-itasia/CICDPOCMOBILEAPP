@@ -1,14 +1,12 @@
-import { AppPage } from './app.po';
+import { AppPage } from "./app.po";
 
-describe('new App', () => {
+describe("CSCD App", () => {
   let page: AppPage;
-
   beforeEach(() => {
     page = new AppPage();
   });
-
-  it('should display welcome message', () => {
+  it("My App Load Successfully", () => {
     page.navigateTo();
-    expect(page.getPageTitle()).toContain('Tab One');
+    expect(page.getPageTitle()).toContain("Tab One");
   });
 });
